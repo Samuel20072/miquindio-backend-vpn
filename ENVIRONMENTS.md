@@ -6,7 +6,7 @@ Este documento describe cómo configurar y ejecutar el backend en diferentes ent
 
 ### 1. Local (Desarrollo Local)
 - **URL Frontend**: http://localhost:4200
-- **URL Backend**: http://localhost:3000
+- **URL Backend**: http://localhost:3002
 - **Base de Datos**: localhost:3306
 
 **Comandos:**

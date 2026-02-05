@@ -27,7 +27,7 @@ async function bootstrap() {
     prefix: '/uploads',
   });
 
-  const port = configService.get<number>('port') || 3000;
+  const port = configService.get<number>('port') || 3002;
   await app.listen(port);
 }
 
