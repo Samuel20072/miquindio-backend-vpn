@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:10
+    container_name: miquindio-db-test
+    environment:
+      POSTGRES_DB: jorgepiq_miquindio
+      POSTGRES_USER: jorgepiq_postgres
+      POSTGRES_PASSWORD: Ch;F@hH[6nKZ
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data_test:/var/lib/postgresql/data
+    restart: no
+
+volumes:
+  postgres_data_test:
